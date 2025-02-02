@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    background-color: black;
+    color: pink;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+}
+
+.container {
+    background: rgba(255, 192, 203, 0.2);
+    padding: 40px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+#yesBtn {
+    background-color: pink;
+    color: black;
+}
+
+#noBtn {
+    background-color: black;
+    color: pink;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
